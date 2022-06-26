@@ -1,0 +1,25 @@
+body {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.container {
+    position: absolute;
+    text-align: right;
+    color: rgb(255, 255, 255);
+    right: 30px;
+  }
+  
+.top-right {
+    position: absolute;
+    top: 2px;
+    right: 30px;
+  }
